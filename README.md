@@ -10,6 +10,11 @@ The Problem: Over 500k rows of raw e-commerce data were unusable due to encoding
 The Fix: I restored missing info using StockCode mapping, filtered out impossible outliers (negative values), and standardized product descriptions. I also converted timestamps into actionable Time/Day/Month columns.
 
 The Result: A 100% clean, analysis-ready dataset with a new Total_Sales column, allowing the business to accurately track revenue and peak shopping hours.
+📁 This repository contains:
+- raw_data/ → messy original data
+- cleaned_data/ → final cleaned dataset
+- scripts/ → Python cleaning scripts
+I well not add pictures due to the data being so big adding pics isnt neccaciry, and well not show really allat.
 <hr>
 <h3 align="center">Encoding Fix</h3>
 

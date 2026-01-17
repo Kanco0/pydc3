@@ -3,6 +3,13 @@
 <h1 align="center">📊 Dataset:
   E-Commerce
 </h1>
+<h2 align="center">📌 Project Summary: Retail Data Audit & Cleanup</h2>
+
+The Problem: Over 500k rows of raw e-commerce data were unusable due to encoding errors, negative quantities (up to -80k), missing prices, and "Guest" transactions without IDs.
+
+The Fix: I restored missing info using StockCode mapping, filtered out impossible outliers (negative values), and standardized product descriptions. I also converted timestamps into actionable Time/Day/Month columns.
+
+The Result: A 100% clean, analysis-ready dataset with a new Total_Sales column, allowing the business to accurately track revenue and peak shopping hours.
 <hr>
 <h3 align="center">Encoding Fix</h3>
 
